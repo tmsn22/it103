@@ -1,51 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Computer Parts</title>
 <link rel="stylesheet" href="main.css">
 </head>
-<style>
-h1 {text-align: center;}
-</style>
 <body>
-<h1>อุปกรณ์คอมพิวเตอร์น่าสนใจ</h1>
 
-<div class="intro">
-<strong>อุปกรณ์ที่สำคัญของคอมพิวเตอร์</strong>
-<p>ได้แก่</p>
-</div>
+<!-- Navigation Header -->
+<nav class="top-nav">
+    <a href="mytable.html">ตารางอุปกรณ์</a>
+    <a href="mylist.html">ขั้นตอนการประกอบ</a>
+</nav>
 
-<div class="component-card">
-<p><strong>CPU / ซีพียู</strong></p>
-<img src="https://as1.ftcdn.net/v2/jpg/03/06/52/28/1000_F_306522829_rDtU309o7HLHqJYG3k9f33M9CIfBTguA.jpg" alt="CPU" width="400">
-<p>CPU ย่อจากมาก Central Processing Unit หรือชื่อเรียกในภาษาไทยคือหน่วยประมวลผลกลาง</p>
-<p>เป็นส่วนประกอบหลักของคอมพิวเตอร์ที่ทำหน้าที่ประมวลผลและควบคุมมีหน้าที่รับผิดชอบในการดำเนินคำสั่งและจัดการข้อมูลในระบบคอมพิวเตอร์</p>
-</div>
+<!-- Hero Section -->
+<header class="hero">
+    <h1>อุปกรณ์คอมพิวเตอร์น่าสนใจ</h1>
+    <p class="subtitle">อุปกรณ์ที่สำคัญของคอมพิวเตอร์</p>
+</header>
 
-<div class="component-card">
-<p><strong>RAM / แรม</strong></p>
-<img src="https://as2.ftcdn.net/v2/jpg/03/91/88/29/1000_F_391882907_IEeS1Ufr9GMvGTkaLyEYsv5qFj46pPTx.jpg" alt="RAM" width="400">
-<p>RAM ย่อจากมาก Random-access memory หรือชื่อเรียกในภาษาไทยคือหน่วยความจำเข้าถึงโดยสุ่ม</p>
-<p>แรมคือหน่วยความจำชั่วคราวที่คอมพิวเตอร์ใช้จัดเก็บข้อมูลที่จำเป็นเพื่อจะได้ดึงนำข้อมูลนั้นมาใช้ได้อย่างรวดเร็ว</p>
-</div>
-  
-<div class="sources">
-<p><i>แหล่งที่มาข้อมูล</i></p>
-<p><i><a href="https://www.gigabyte.com/Glossary/cpu/">เนื้อหาแหล่งที่มาของ CPU</a></i></p>
-<p><i><a href="https://www.avast.com/c-what-is-ram-memory">เนื้อหาแหล่งที่มาของ RAM</a></i></p>
-</div>
+<!-- CPU Section -->
+<section class="component-section">
+    <div class="component-content">
+        <div class="component-text">
+            <h2>CPU / ซีพียู</h2>
+            <p>CPU ย่อจากมาก Central Processing Unit หรือชื่อเรียกในภาษาไทยคือหน่วยประมวลผลกลาง</p>
+            <p>เป็นส่วนประกอบหลักของคอมพิวเตอร์ที่ทำหน้าที่ประมวลผลและควบคุมมีหน้าที่รับผิดชอบในการดำเนินคำสั่งและจัดการข้อมูลในระบบคอมพิวเตอร์</p>
+        </div>
+        <div class="component-image">
+            <img src="https://as1.ftcdn.net/v2/jpg/03/06/52/28/1000_F_306522829_rDtU309o7HLHqJYG3k9f33M9CIfBTguA.jpg" alt="CPU">
+        </div>
+    </div>
+</section>
 
-<div class="nav-links">
-<p><a href="mytable.html">ตารางอุปกรณ์คอมพิวเตอร์ที่สำคัญ</a></p>
-<p><a href="mylist.html">อุปกรณ์ที่สำคัญและขั้นตอนการประกอบเครื่อง</a></p>
-</div>
+<!-- RAM Section -->
+<section class="component-section alt">
+    <div class="component-content reverse">
+        <div class="component-text">
+            <h2>RAM / แรม</h2>
+            <p>RAM ย่อจากมาก Random-access memory หรือชื่อเรียกในภาษาไทยคือหน่วยความจำเข้าถึงโดยสุ่ม</p>
+            <p>แรมคือหน่วยความจำชั่วคราวที่คอมพิวเตอร์ใช้จัดเก็บข้อมูลที่จำเป็นเพื่อจะได้ดึงนำข้อมูลนั้นมาใช้ได้อย่างรวดเร็ว</p>
+        </div>
+        <div class="component-image">
+            <img src="https://as2.ftcdn.net/v2/jpg/03/91/88/29/1000_F_391882907_IEeS1Ufr9GMvGTkaLyEYsv5qFj46pPTx.jpg" alt="RAM">
+        </div>
+    </div>
+</section>
+
+<!-- Sources Footer -->
+<footer class="sources">
+    <p class="sources-title">แหล่งที่มาข้อมูล</p>
+    <div class="source-links">
+        <a href="https://www.gigabyte.com/Glossary/cpu/" target="_blank">เนื้อหาแหล่งที่มาของ CPU</a>
+        <a href="https://www.avast.com/c-what-is-ram-memory" target="_blank">เนื้อหาแหล่งที่มาของ RAM</a>
+    </div>
+</footer>
+
 </body>
 </html>
-
-
-
-
-
-
-
