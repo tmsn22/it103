@@ -1,46 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
 <meta charset="UTF-8">
-<title>ตารางอุปกรณ์และหน้าที่</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - Lumphini Industries</title>
 <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<div style="text-align: center; margin-top: 20px;">
-<h2>ตารางสรุปอุปกรณ์คอมพิวเตอร์</h2>
 
-<table border="1" cellpadding="10" cellspacing="0" style="margin: 0 auto; text-align: center;">
-<thead>
-<tr>
-<th>อุปกรณ์</th>
-<th>ชื่อภาษาอังกฤษ</th>
-<th>หน้าที่</th>
-</tr>
-</thead>
+<!-- Navigation -->
+<nav class="main-nav">
+    <div class="nav-content">
+        <div class="nav-title"><a href="index.html" style="color: inherit; text-decoration: none;">Lumphini Industries</a></div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="mytable.html">About us</a>
+            <a href="mylist.html">Contact us</a>
+        </div>
+    </div>
+</nav>
 
-<tr>
-<td>ซีพียู</td>
-<td>CPU</td>
-<td>ประมวลผลคำสั่งและควบคุมระบบทั้งหมด</td>
-</tr>
+<!-- Hero -->
+<section class="hero-section about-hero">
+    <div class="hero-content">
+        <h1>About Us</h1>
+        <p class="hero-subtitle">Building the future of data intelligence with cutting-edge technology and innovative solutions</p>
+    </div>
+    <div class="scroll-indicator">
+        <span>SCROLL DOWN</span>
+        <div class="arrow">↓</div>
+    </div>
+</section>
 
-<tr>
-<td>แรม</td>
-<td>RAM</td>
-<td>เก็บข้อมูลชั่วคราวระหว่างที่ระบบทำงาน</td>
-</tr>
+<!-- About Content -->
+<section class="component-card">
+    <div class="card-content">
+        <div class="card-header">
+            <span class="card-number">WHO WE ARE</span>
+            <h2>Our Story</h2>
+        </div>
+        <div class="about-intro">
+            <p>Lumphini Industries เป็นบริษัทที่มุ่งเน้นการพัฒนาเทคโนโลยี Data Intelligence และ AI Solutions เพื่อช่วยให้องค์กรต่างๆ สามารถตัดสินใจได้อย่างแม่นยำและรวดเร็วยิ่งขึ้น</p>
+            <p>เราเชื่อว่าข้อมูลคือหัวใจของการตัดสินใจที่ดี และเทคโนโลยีที่เหมาะสมจะช่วยปลดล็อกศักยภาพของข้อมูลเหล่านั้นได้</p>
+        </div>
+    </div>
+</section>
 
-</tbody>
-</table>
-</div>
+<!-- Services Table -->
+<section class="component-card alt-card">
+    <div class="card-content">
+        <div class="card-header">
+            <span class="card-number">OUR SERVICES</span>
+            <h2>What We Offer</h2>
+        </div>
+        
+        <div class="services-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service</th>
+                        <th>Technology</th>
+                        <th>Benefits</th>
+                        <th>Use Cases</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <strong>Real-time Streaming</strong>
+                            <p class="table-desc">การวิเคราะห์ข้อมูลแบบเรียลไทม์</p>
+                        </td>
+                        <td>Kafka, Flink, Ray, LLM Streaming</td>
+                        <td>
+                            <ul>
+                                <li>Live data analysis</li>
+                                <li>Instant predictions</li>
+                                <li>Real-time monitoring</li>
+                            </ul>
+                        </td>
+                        <td>Financial trading, IoT systems, Live analytics</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>RAG Architecture</strong>
+                            <p class="table-desc">สถาปัตยกรรมการจัดเก็บข้อมูล</p>
+                        </td>
+                        <td>Vector DB, Embeddings, LLM Integration</td>
+                        <td>
+                            <ul>
+                                <li>Accurate retrieval</li>
+                                <li>Knowledge extraction</li>
+                                <li>Context-aware AI</li>
+                            </ul>
+                        </td>
+                        <td>Chatbots, Document search, Q&A systems</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Synthetic Data</strong>
+                            <p class="table-desc">การสร้างข้อมูลจำลอง</p>
+                        </td>
+                        <td>GANs, Statistical Models, Privacy Tech</td>
+                        <td>
+                            <ul>
+                                <li>Privacy protection</li>
+                                <li>Data augmentation</li>
+                                <li>Model training</li>
+                            </ul>
+                        </td>
+                        <td>AI training, Testing, Privacy compliance</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
 
-<div style="text-align: center;">
+<!-- Team/Values -->
+<section class="component-card">
+    <div class="card-content">
+        <div class="card-header">
+            <span class="card-number">OUR VALUES</span>
+            <h2>What We Stand For</h2>
+        </div>
+        
+        <div class="values-grid">
+            <div class="value-item">
+                <h3>Innovation</h3>
+                <p>เราพัฒนาเทคโนโลยีใหม่ๆ อย่างต่อเนื่องเพื่อให้ทันกับความต้องการที่เปลี่ยนแปลง</p>
+            </div>
+            <div class="value-item">
+                <h3>Accuracy</h3>
+                <p>ความแม่นยำของข้อมูลและการวิเคราะห์คือสิ่งที่เราให้ความสำคัญสูงสุด</p>
+            </div>
+            <div class="value-item">
+                <h3>Partnership</h3>
+                <p>เราทำงานร่วมกับลูกค้าเพื่อสร้างโซลูชันที่ตอบโจทย์ความต้องการจริง</p>
+            </div>
+            <div class="value-item">
+                <h3>Excellence</h3>
+                <p>มาตรฐานสูงสุดในทุกโปรเจกต์เป็นสิ่งที่เรามุ่งมั่นมอบให้</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-<div style="text-align: center;">
-<p><a href="mylist.html">อุปกรณ์ที่สำคัญและขั้นตอนการประกอบเครื่อง</a></p>
-<p><a href="index.html">ข้อมูลอุปกรณ์ที่สำคัญของคอมพิวเตอร์</a></p>
+<!-- CTA Section -->
+<section class="component-card alt-card">
+    <div class="card-content cta-section">
+        <h2>Ready to Transform Your Data?</h2>
+        <p>เริ่มต้นการเดินทางด้าน Data Intelligence กับเรา</p>
+        <div class="cta-buttons">
+            <a href="index.html" class="btn-primary">View Our Services</a>
+            <a href="mylist.html" class="btn-secondary">Contact Us</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="main-footer">
+    <div class="footer-content">
+        <div class="footer-title">Business and Official</div>
+        <div class="footer-links">
+            <a href="mylist.html">Contact Us</a>
+            <a href="https://twitter.com" target="_blank">X (Twitter)</a>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
-
-
-
